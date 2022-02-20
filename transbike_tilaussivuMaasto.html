@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="transbike_tilaussivuMaasto.css"> <!-- CSS -->
+    <title>TransBike Tilaus</title>
+
+<!--KANIT FONTOIT VITU HOMO -->
+
+<body>
+
+<!-- EKA NÄKY -->    
+<h1 class="transbike_teksti"> TransBike </h1>
+<h1 class="maasto_teksti"> Maasto tilaus </h1>
+
+<div class="alatext_holder">
+    <p class="alatext">
+        dsjanmlkidjhjnsaoidkjnasisdadadsadadadadasdasdskljdnkdasdad jsalkfnsdjklgneskjdgnskjdgnkjs
+    </p>
+</div>
+
+ <!-- kuva vielä --> 
+
+
+<!-- TILAA NYT -->
+
+
+<button class="tilaa_heti" onclick="https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html">Tilaa Nyt</button>
+
+
+
+<!-- OSAT JA TEKNISET TIEDOT -->
+<h1 class="ojtt">Osat ja Tekniset tiedot</h1>
+<p class="ojtt2">liruadnjkasndkjank</p>
+
+<img id="moottori" class="JS_moottori" src="images/a.jpg" alt="sähköpyörä">
+<img id="akku" class="JS_akku" src="images/b.jpg" alt="sähköpyörä">
+<img id="näyttö" class="JS_näyttö" src="images/c.jpg" alt="sähköpyörä">
+<img id="info" class="JS_info" src="images/climate.PNG" alt="sähköpyörä">
+
+<div class="holder">
+    <img id="bg_img" class="wallpaper_img" src="images/b.jpg" alt="sähköpyörä">         <!-- TESTI ID OLLUT-->
+    <button class="moottori_btn" onclick="show_hide_moottori()"><img src="images/c.jpg" class="moottori_btn_kuva"></button>
+    <button class="akku_btn" onclick="show_hide_akku()">Akku</button>
+    <button class="näyttö_btn" onclick="show_hide_näyttö()">Näyttö</button>
+    <button class="tekniset_tiedot_btn" onclick="show_hide_tekniset_tiedot()">Info</button>
+    
+
+    <div class="text_container">
+        <h1 id="testi_teksti" class="container_otsikko">MOro</h1>
+        <p class="container_sisältö"> sjdkiahjdkijsjadkjjaskjdhn</p>
+
+        <h1 id="motor_header" class="container_otsikko_moottori">Moottori</h1>              <!-- Moottori -->
+        <p id="motor_info" class="container_sisältö_moottori">moototri tietoja</p>
+
+        <h1 id="battery_header" class="container_otsikko_akku">Akku</h1>                                  <!-- Akku -->
+        <p id="akku_info" class="container_sisältö_akku">AKku tieteoi</p>
+
+        <h1 id="info_header" class="container_otsikko_info">Lisätietoja</h1>                                 <!-- Info -->
+        <p id="info_info" class="container_sisältö_info">sadsdsadasdasda</p>
+
+        <h1 id="näyttö_header" class="container_otsikko_näyttö">Näyttö</h1>                              <!-- Näyttö -->
+        <p id="näyttö_info" class="container_sisältö_näyttö"> näyttö tieteoi</p>
+
+    </div>
+    
+</div>
+
+
+
+<!-- FORM -->
+
+<!-- &nbsp josset haluu space merkkei _-->
+
+
+<div class="wrapper">
+    <form class="row g-3" action="https://formsubmit.co/konsta.korsu@gmail.com" method="POST">
+        <!-- Honeypot spam esto -->
+        <input type="text" name="_honey" style="display: none;">
+        <!-- Not a robot  -->
+        <input type="hidden" name="_captcha" value="false">
+        <!-- succes page link -->
+        <input type="hidden" name="_next" value="netti sivu url plu su koodis">
+
+        <label id="nameField">
+            <input  type="text" name="nameField" placeholder="Nimi" required>
+        </label>
+
+        <label id="lastnameField">
+            <input  type="text" name="lastnameField" placeholder="Sukunimi" required>
+        </label>
+
+        <label id="phoneField">
+            <input  type="text" name="phoneField" placeholder="Puhelinnumero" required>
+        </label>
+
+        <label id="emailField">
+            <input  type="text" name="emailField" placeholder="Sähköposti" required>
+        </label>
+
+        <label id="muutaField">
+            <input  type="text" name="muutaField" placeholder="Muuta" >
+        </label>
+
+        <input type="submit" value="Lähetä" name="submit" >
+
+        
+    </form>
+</div>
+  
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPTIT !!!!!!!!!!! -->
+
+
+<script src="transbike_tilaussivuMaasto.js">
+
+
+</script>
+
+<!-- YLÄ JA ALAREUNA -->
+
+<div class="fucked_border"></div>
+<div class="ylä_box">
+    <a href="transbike_etusivu.html" class="etusivu"> Etusivulle &#9660;</a> 
+    <a href="transbike_tietoaMeistä.html" class="tietoa_meistä">Tietoa Meistä &#9660;</a>
+    <a href="transbike_tietoaMeistä.html" class="ota_yhteyttä">Ota Yhteyttä &#9660;</a>
+    
+</div>
+<img class="tranbike_img" src="images/tb_kuva_kaksi.png" alt="pyörä">
+
+<div class="info_box">
+    <div id="connect" class="connect"></div>
+    <h1 class="reach"> Ota Yhteyttä </h1>
+
+    <p class="reach">&#8226 Sähköpostitse: </p> 
+    <a href="https://www.laakisvalmennus.fi/laaketieteellisen-paasykoe/mita-asioita-paasykokeessa-kysytaan/" target="_blank" class="sähköposti">iso.muna@pornhub.com</a>
+    <p class="puhelin"> &#8226 Puhelimitse:  </p>
+    <p class="puhelin_nmr">+358 696969</p>
+    <p class="somessa">&#8226 Somessa: </p>
+    <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">
+        <img class="face" alt="facebook" src="images/facebook.png">
+    </a>
+    <a href="https://logodix.com/logos/938979" target="_blank">
+        <img class="ig" alt="instagram" src="images/instagram.png">
+    </a>
+    <a href="https://www.w3schools.com/cssref/pr_class_position.asp" target="_blank">
+        <img src="images/tiktok.PNG" class="tt" alt="tiktok">
+    </a>
+    <a href="#up">
+        <img src="images/Transbike.png" alt="sähköpyörä" class="transbike_img_info">
+    </a>
+    </div>
+<!--<img class="tranbike_img" src="images/tb_kuva_kaksi.png" alt="pyörä"> -->
+
+<div class="more_info">
+    <a href="https://fi.wiktionary.org/wiki/t%C3%A4nne" class="more_info2">Tietoa Meistä</a>
+</div>
+<div class="more_info3">
+    <a href="https://fi.wiktionary.org/wiki/t%C3%A4nne" class="more_info22"> Ota Yhteyttä</a>
+</div>
+
+</body>
+</head>
+</html>
